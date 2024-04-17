@@ -5,9 +5,8 @@ namespace Full_GRASP_And_SOLID
 {
     public class ConsolePrinter
     {
-        // Usamos el principio de SRP (Single Responsibility Principle) al crear una clase
-        // separada para imprimir la receta en la consola, manteniendo cada clase con una
-        // sola razón para cambiar.
+        // Use el principio de SRP  al crear una clase separada para imprimir la receta en la consola, 
+        // manteniendo cada clase con una sola razón para cambiar.
         public static void PrintRecipe(Recipe recipe)
         {
             Console.WriteLine($"Receta de {recipe.FinalProduct.Description}:");
